@@ -12,7 +12,7 @@
                 <div class="timew">
                   <div class="timew2">
                   <div class="stime">{{item.stime}}</div>
-                  <h6 class="stime">---</h6>
+                  <h6 class="line">---</h6>
                   <div class="stime">{{item.etime}}</div></div>
                   <div class="classroom">
                     <span class="classroomc">{{ item.classroom }}</span>
