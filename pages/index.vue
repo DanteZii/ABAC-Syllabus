@@ -11,7 +11,7 @@
                 <li class="name">
                   <div class="ch">{{item.ch}}</div>
                   <div>{{item.name}}</div>   
-                  <div>{{item.information}}</div>              
+                  <div class="ifmt">{{item.information}}</div>              
                 </li>
                 <div class="timew">
                   <div class="timew2">

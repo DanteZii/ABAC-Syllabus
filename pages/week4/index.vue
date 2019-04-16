@@ -10,7 +10,11 @@
     >
     <div class="alink">
       <ul class="wriper">
-                <li class="name">{{item.name}}</li>
+                <li class="name">
+                  <div class="ch">{{item.ch}}</div>
+                  <div>{{item.name}}</div>   
+                  <div class="ifmt">{{item.information}}</div>              
+                </li>
                 <div class="timew">
                   <div class="timew2">
                   <div class="stime">{{item.stime}}</div>

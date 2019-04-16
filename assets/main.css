@@ -185,9 +185,13 @@ h1 {
 
 .ch {
   font-size: 10px;
+  color: #A3AFD9;
+  margin-bottom: 4px;
+}
+.ifmt {
+  font-size: 14px;
   color: #526488;
-  margin-bottom: 5px;
-
+  margin-top: 10px;
 }
 
 .classroom {
