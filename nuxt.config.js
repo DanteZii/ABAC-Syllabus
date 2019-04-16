@@ -42,6 +42,7 @@ export default {
   */
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/pwa',
   ],
 
   /*
