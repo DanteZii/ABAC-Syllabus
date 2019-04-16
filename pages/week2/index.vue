@@ -11,9 +11,9 @@
                 <li class="name">{{item.name}}</li>
                 <div class="timew">
                   <div class="timew2">
-                  <div>{{item.stime}}</div>
+                  <div class="stime">{{item.stime}}</div>
                   <h6 class="stime">---</h6>
-                  <div>{{item.etime}}</div></div>
+                  <div class="stime">{{item.etime}}</div></div>
                   <div class="classroom">
                     <span class="classroomc">{{ item.classroom }}</span>
                   </div>
