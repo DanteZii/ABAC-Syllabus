@@ -9,8 +9,8 @@
     <div class="alink">
       <ul class="wriper">
                 <li class="name">
-                  <div class="ch">{{item.ch}}</div>
-                  <div>{{item.name}}</div>   
+                  <div class="ch">{{item.tname}}</div>
+                  <div>{{item.id}}-{{item.name}}</div>   
                   <div class="ifmt">{{item.information}}</div>              
                 </li>
                 <div class="timew">
@@ -35,7 +35,15 @@ export default {
   async asyncData({ $axios }) {
     const items = await $axios.$get('https://cuneoclass.firebaseio.com/week1.json')
     return{ items }
-  }
+  }, 
+computed:{
+                items:function(){
+                    return this.list.filter(function(item){
+                        return item.id>=1
+                    })
+                }
+            }
+
 }
 </script>
 

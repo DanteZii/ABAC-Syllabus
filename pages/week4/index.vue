@@ -11,7 +11,7 @@
     <div class="alink">
       <ul class="wriper">
                 <li class="name">
-                  <div class="ch">{{item.ch}}</div>
+                  <div class="ch">{{item.tname}}</div>
                   <div>{{item.name}}</div>   
                   <div class="ifmt">{{item.information}}</div>              
                 </li>
