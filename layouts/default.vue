@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <nuxt />
     <div class="navposition">
       <div class="nav">

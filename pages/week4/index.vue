@@ -35,7 +35,7 @@
 
 export default {
   async asyncData({ $axios }) {
-    const items = await $axios.$get('https://cuneoclass.firebaseio.com/week4.json')
+    const items = await $axios.$get('https://cuneoclass.firebaseio.com/abacw4.json')
     return{ items }
   }
 }

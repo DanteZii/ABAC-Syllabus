@@ -10,7 +10,7 @@
       <ul class="wriper">
                 <li class="name">
                   <div class="ch">{{item.tname}}</div>
-                  <div>{{item.id}}-{{item.name}}</div>   
+                  <div>{{item.name}}</div>   
                   <div class="ifmt">{{item.information}}</div>              
                 </li>
                 <div class="timew">
@@ -33,16 +33,17 @@
 
 export default {
   async asyncData({ $axios }) {
-    const items = await $axios.$get('https://cuneoclass.firebaseio.com/week1.json')
+    const items = await $axios.$get('https://cuneoclass.firebaseio.com/abacw1.json')
     return{ items }
-  }, 
-computed:{
-                items:function(){
-                    return this.list.filter(function(item){
-                        return item.id>=1
-                    })
-                }
-            }
+  },
+  computed: {
+    // 计算属性的 getter
+    items: function () {
+      // `this` 指向 vm 实例
+      return this.item.split('').reverse().join('')
+    }
+  }
+
 
 }
 </script>
